@@ -43,7 +43,7 @@ import LuckyExcel from 'luckyexcel'
 ```
 3）使用luckyexcel实现在线浏览excel（仅支持xlsx）
 
-3.1 通过接口获取后端返回的二进制流，并装换成文件
+3.1 通过接口获取后端返回的二进制流，并转换成文件
 ```
 showOnlineDoc(){
       const url = "minio/getFileInputStream.do/项目查询 (3).xlsx";
